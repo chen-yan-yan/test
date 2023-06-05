@@ -1,1 +1,9 @@
-document.write("HELLO ---------這是JS語法")
+
+var count = 0;
+    var counterElement = document.getElementById("counter");
+
+    function increment() {
+      count+=2;
+      counterElement.textContent = count;
+    }
+
